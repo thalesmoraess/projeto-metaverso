@@ -1,0 +1,43 @@
+:root {
+    --font-primary: "Exo 2", sans-serif;
+    --font-secondary: "Manrope", sans-serif;
+
+    --clr-light: #f5f5f5;
+    --clr-gray: #bbb;
+    --clr-border: #aa0989;
+    --clr-btn-bg: #2a2362;
+    --clr-primary: rgba(255, 37, 212, 1);
+    --clr-secondary: rgba(57, 63, 210, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    line-height: calc(1em + 0.5rem);
+}
+
+body {
+    min-height: 100vh;
+    color: var(--clr-light);
+    font-family: var(--font-secondary);
+}
+
+img, picture, video, svg {
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    border: none;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.bg {
+    height: 100svh;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+}

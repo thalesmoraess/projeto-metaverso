@@ -1,0 +1,31 @@
+.btn {
+    background-color: var(--clr-btn-bg);
+    padding: 0.5em 1.2em;
+    border: 1px solid var(--clr-border);
+    border-radius: 4px;
+    transform: skewX(-20deg);
+    transition: 0 -3px;
+}
+
+.btn:hover {
+    translate: 0 -3px;
+}
+
+.btn--text {
+    display: block;
+    transform: skewX(20deg);
+}
+
+.container {
+    max-width: 1366px;
+    margin-inline: auto;
+}
+
+/* add gradient in the text */
+.main__title--gradient { 
+    background: -webkit-linear-gradient(left, var(--clr-primary), var(--clr-secondary));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+}
