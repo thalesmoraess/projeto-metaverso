@@ -100,3 +100,15 @@
     padding-top: 10px;
     font-size: 1.125rem;
 }
+
+@media (width < 1024px) {
+    .main {
+        flex-direction: column;
+    }
+    .main__img {
+        width: 90%;
+        max-width: 400px;
+        display: flex;
+        margin: auto;
+    }
+}

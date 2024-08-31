@@ -52,3 +52,19 @@
     text-decoration: underline;
     text-decoration-color: var(--clr-primary);
 }
+
+.header_icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    display: none;
+}
+
+@media (width < 1024px) {
+    .nav__ul {
+        display: none;
+    }
+    .header_icon {
+        display: block;
+    }
+}
+
