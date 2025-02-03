@@ -36,7 +36,7 @@
     align-items: center;
 }
 
-.expert-container {
+.expert__container {
     display: flex;
 }
 
@@ -51,7 +51,7 @@
     margin-left: -10px;
 }
 
-.expert--last {
+.expert__last {
     background-color: var(--clr-btn-bg);
 }
 

@@ -11,7 +11,7 @@
     translate: 0 -3px;
 }
 
-.btn--text {
+.btn__text {
     display: block;
     transform: skewX(20deg);
 }

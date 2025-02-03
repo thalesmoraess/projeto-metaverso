@@ -1,4 +1,4 @@
-.header-container {
+.header__container {
     padding-top: 1.25rem;
     padding-inline: 1.5rem;
 }
@@ -53,7 +53,7 @@
     text-decoration-color: var(--clr-primary);
 }
 
-.header_icon {
+.header__icon {
     width: 1.75rem;
     height: 1.75rem;
     display: none;
@@ -63,7 +63,7 @@
     .nav__ul {
         display: none;
     }
-    .header_icon {
+    .header__icon {
         display: block;
     }
 }
